@@ -1,0 +1,60 @@
+@media (max-width:704px) {
+    .About {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-card {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:853px) {
+    .FormElement {
+        width: 50%;
+
+    }
+
+}
+
+@media (max-width:435px) {
+    .FormElement {
+        width: 70%;
+
+    }
+
+    .para {
+        margin: auto;
+        width: 65%;
+    }
+
+}
+
+@media (max-width:470px) {
+    .mid-menu {
+        display: none;
+
+    }
+
+    .Nav{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+}
+
+@media (min-height:1486px) {
+
+    .hero-section {
+        height: auto;
+    }
+
+    .About {
+        height: auto;
+    }
+}
